@@ -47,7 +47,7 @@ namespace System.Diagnostics
         {
             if (IsAttached)
             {
-                NotifyOfCrossThreadDependencySlow();
+                //NotifyOfCrossThreadDependencySlow();
             }
         }
 
